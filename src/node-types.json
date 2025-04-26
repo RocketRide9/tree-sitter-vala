@@ -10588,7 +10588,7 @@
     "fields": {},
     "children": {
       "multiple": true,
-      "required": false,
+      "required": true,
       "types": [
         {
           "type": "access_modifier",
@@ -10601,9 +10601,18 @@
         {
           "type": "block",
           "named": true
+        },
+        {
+          "type": "property_accessor_type",
+          "named": true
         }
       ]
     }
+  },
+  {
+    "type": "property_accessor_type",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "property_declaration",

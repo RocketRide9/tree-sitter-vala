@@ -601,21 +601,22 @@ module.exports = grammar({
       $.type,
       $.symbol,
       '{',
-      choice($.property_default, $.property_accessor),
-      repeat(choice($.property_default, $.property_accessor)),
+      repeat1(choice($.property_default, $.property_accessor)),
       '}'
     ),
 
     property_default: $ => seq('default', '=', $._expression, ';'),
-
+    
+    property_accessor_type: $ => choice(
+      seq(optional('owned'), 'get'),
+      seq(optional('owned'), 'set', optional('construct')),
+      seq('construct', optional('set'))
+    ),
+    
     property_accessor: $ => seq(
       repeat($._attribute_list),
       optional($.access_modifier),
-      choice(
-        seq(optional('owned'), 'get'),
-        seq(optional('owned'), 'set', optional('construct')),
-        seq('construct', optional('set'))
-      ),
+      $.property_accessor_type,
       choice(';', $.block)
     ),
 
@@ -655,7 +656,15 @@ module.exports = grammar({
       optional(seq('=', $._expression))
     )),
 
-    block: $ => seq('{', repeat(choice($._statement, $.local_declaration, $.local_function_declaration)), '}'),
+    block: $ => seq(
+      '{',
+      repeat(choice(
+        $._statement,
+        $.local_declaration,
+        $.local_function_declaration
+      )),
+      '}'
+    ),
 
     _statement: $ => choice(
       $.if_statement,
