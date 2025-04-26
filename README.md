@@ -1,5 +1,7 @@
 ## tree-sitter-vala
 
+VBB's fork of https://github.com/vala-lang/tree-sitter-vala until changes are merged into the main repository.
+
 ### Prerequisites
 
 1. Install tree-sitter CLI. `tree-sitter-cli` package on most linux distros.
