@@ -57,6 +57,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -81,11 +89,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -113,6 +121,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -129,6 +141,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -138,6 +158,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -158,6 +186,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -220,6 +252,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -248,11 +288,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -280,6 +320,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -296,6 +340,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -305,6 +357,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -325,6 +385,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -387,6 +451,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -411,11 +483,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -443,6 +515,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -459,6 +535,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -468,6 +552,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -488,6 +580,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -550,6 +646,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -574,11 +678,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -606,6 +710,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -622,6 +730,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -631,6 +747,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -651,6 +775,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -736,6 +864,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -760,11 +896,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -792,6 +928,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -808,6 +948,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -817,6 +965,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -837,6 +993,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -914,6 +1074,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -946,11 +1114,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -978,6 +1146,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -994,6 +1166,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1003,6 +1183,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1023,6 +1211,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1085,6 +1277,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1109,11 +1309,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1141,6 +1341,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1157,6 +1361,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1166,6 +1378,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1186,6 +1406,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1267,6 +1491,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1295,11 +1527,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1327,6 +1559,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1343,6 +1579,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1352,6 +1596,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1372,6 +1624,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1434,6 +1690,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1458,11 +1722,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1490,6 +1754,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1506,6 +1774,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1515,6 +1791,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1535,6 +1819,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1597,6 +1885,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1621,11 +1917,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1653,6 +1949,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1669,6 +1969,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1678,6 +1986,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1698,6 +2014,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1760,6 +2080,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1784,11 +2112,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1816,6 +2144,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1832,6 +2164,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -1841,6 +2181,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -1861,6 +2209,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -1923,6 +2275,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -1947,11 +2307,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -1979,6 +2339,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -1995,6 +2359,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -2004,6 +2376,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -2024,6 +2404,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -2086,6 +2470,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -2110,11 +2502,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -2142,6 +2534,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -2158,6 +2554,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -2167,6 +2571,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -2187,6 +2599,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -2337,11 +2753,11 @@
           "named": true
         },
         {
-          "type": "type",
+          "type": "modifier",
           "named": true
         },
         {
-          "type": "type_declaration_modifier",
+          "type": "type",
           "named": true
         },
         {
@@ -2475,6 +2891,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -2507,11 +2931,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -2531,15 +2955,19 @@
           "named": true
         },
         {
-          "type": "member_declaration_modifier",
-          "named": true
-        },
-        {
           "type": "method_call_expression",
           "named": true
         },
         {
+          "type": "modifier",
+          "named": true
+        },
+        {
           "type": "multiplicative_expression",
+          "named": true
+        },
+        {
+          "type": "null",
           "named": true
         },
         {
@@ -2559,6 +2987,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -2568,6 +3004,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -2595,6 +3039,10 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
@@ -2614,16 +3062,11 @@
           "named": true
         },
         {
-          "type": "constructor_declaration_modifier",
+          "type": "modifier",
           "named": true
         }
       ]
     }
-  },
-  {
-    "type": "constructor_declaration_modifier",
-    "named": true,
-    "fields": {}
   },
   {
     "type": "continue_statement",
@@ -2691,6 +3134,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -2715,11 +3166,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -2739,15 +3190,19 @@
           "named": true
         },
         {
-          "type": "member_declaration_modifier",
-          "named": true
-        },
-        {
           "type": "method_call_expression",
           "named": true
         },
         {
+          "type": "modifier",
+          "named": true
+        },
+        {
           "type": "multiplicative_expression",
+          "named": true
+        },
+        {
+          "type": "null",
           "named": true
         },
         {
@@ -2771,6 +3226,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -2783,7 +3246,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -2811,6 +3282,10 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
@@ -2830,7 +3305,7 @@
           "named": true
         },
         {
-          "type": "delegate_declaration_modifier",
+          "type": "modifier",
           "named": true
         },
         {
@@ -2851,11 +3326,6 @@
         }
       ]
     }
-  },
-  {
-    "type": "delegate_declaration_modifier",
-    "named": true,
-    "fields": {}
   },
   {
     "type": "delete_statement",
@@ -2910,6 +3380,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -2934,11 +3412,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -2966,6 +3444,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -2982,6 +3464,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -2991,6 +3481,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3011,6 +3509,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -3073,6 +3575,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -3097,11 +3607,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -3129,6 +3639,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -3145,6 +3659,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -3154,6 +3676,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3177,6 +3707,10 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
@@ -3196,11 +3730,11 @@
           "named": true
         },
         {
-          "type": "constructor_declaration_modifier",
+          "type": "identifier",
           "named": true
         },
         {
-          "type": "identifier",
+          "type": "modifier",
           "named": true
         }
       ]
@@ -3263,7 +3797,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -3323,11 +3865,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -3359,6 +3901,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -3372,6 +3918,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -3391,7 +3945,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3420,6 +3982,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -3494,6 +4060,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -3518,11 +4092,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -3550,6 +4124,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -3566,6 +4144,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -3575,6 +4161,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3599,6 +4193,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -3661,6 +4259,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -3685,11 +4291,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -3717,6 +4323,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -3733,6 +4343,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -3746,6 +4364,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3766,6 +4392,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -3828,6 +4458,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -3856,11 +4494,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -3888,6 +4526,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -3904,6 +4546,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -3913,6 +4563,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -3933,6 +4591,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -3975,11 +4637,43 @@
             "named": false
           },
           {
+            "type": "boolean",
+            "named": true
+          },
+          {
+            "type": "character",
+            "named": true
+          },
+          {
             "type": "identifier",
             "named": true
           },
           {
-            "type": "literal",
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "null",
+            "named": true
+          },
+          {
+            "type": "real",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "template_string",
+            "named": true
+          },
+          {
+            "type": "verbatim_string",
             "named": true
           },
           {
@@ -4131,7 +4825,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -4191,11 +4893,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -4227,6 +4929,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -4240,6 +4946,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -4259,7 +4973,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -4288,6 +5010,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -4343,11 +5069,11 @@
           "named": true
         },
         {
-          "type": "symbol",
+          "type": "modifier",
           "named": true
         },
         {
-          "type": "type_declaration_modifier",
+          "type": "symbol",
           "named": true
         }
       ]
@@ -4410,6 +5136,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -4438,11 +5172,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -4470,6 +5204,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -4486,6 +5224,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -4495,6 +5241,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -4515,6 +5269,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -4577,6 +5335,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -4601,11 +5367,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -4633,6 +5399,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -4649,6 +5419,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -4658,6 +5436,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -4678,6 +5464,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -4744,6 +5534,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -4772,11 +5570,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -4804,6 +5602,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -4820,6 +5622,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -4829,6 +5639,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -4849,6 +5667,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -4883,11 +5705,11 @@
           "named": true
         },
         {
-          "type": "symbol",
+          "type": "modifier",
           "named": true
         },
         {
-          "type": "type_declaration_modifier",
+          "type": "symbol",
           "named": true
         }
       ]
@@ -4946,6 +5768,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -4970,11 +5800,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -5002,6 +5832,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -5018,6 +5852,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -5027,6 +5869,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -5047,6 +5897,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -5113,6 +5967,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -5145,11 +6007,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -5169,15 +6031,19 @@
           "named": true
         },
         {
-          "type": "member_declaration_modifier",
-          "named": true
-        },
-        {
           "type": "method_call_expression",
           "named": true
         },
         {
+          "type": "modifier",
+          "named": true
+        },
+        {
           "type": "multiplicative_expression",
+          "named": true
+        },
+        {
+          "type": "null",
           "named": true
         },
         {
@@ -5197,6 +6063,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -5206,6 +6080,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -5230,6 +6112,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -5311,7 +6197,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -5371,11 +6265,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -5411,6 +6305,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -5424,6 +6322,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -5443,7 +6349,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -5472,6 +6386,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -5550,7 +6468,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -5614,11 +6540,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -5650,6 +6576,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -5663,6 +6593,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -5682,7 +6620,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -5715,6 +6661,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -5769,11 +6719,43 @@
             "named": false
           },
           {
+            "type": "boolean",
+            "named": true
+          },
+          {
+            "type": "character",
+            "named": true
+          },
+          {
             "type": "identifier",
             "named": true
           },
           {
-            "type": "literal",
+            "type": "integer",
+            "named": true
+          },
+          {
+            "type": "null",
+            "named": true
+          },
+          {
+            "type": "real",
+            "named": true
+          },
+          {
+            "type": "regex",
+            "named": true
+          },
+          {
+            "type": "string",
+            "named": true
+          },
+          {
+            "type": "template_string",
+            "named": true
+          },
+          {
+            "type": "verbatim_string",
             "named": true
           },
           {
@@ -5841,7 +6823,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -5909,11 +6899,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -5945,6 +6935,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -5958,6 +6952,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -5977,7 +6979,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -6006,6 +7016,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -6080,6 +7094,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -6104,11 +7126,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -6136,6 +7158,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -6152,6 +7178,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -6161,6 +7195,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -6181,6 +7223,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -6210,7 +7256,7 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "types": [
         {
@@ -6258,6 +7304,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -6282,11 +7336,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -6314,6 +7368,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -6330,6 +7388,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -6339,6 +7405,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -6359,6 +7433,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -6390,11 +7468,11 @@
           "named": true
         },
         {
-          "type": "type",
+          "type": "modifier",
           "named": true
         },
         {
-          "type": "type_declaration_modifier",
+          "type": "type",
           "named": true
         },
         {
@@ -6516,6 +7594,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -6544,11 +7630,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -6576,6 +7662,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -6592,6 +7682,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -6601,6 +7699,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -6624,54 +7730,11 @@
           "named": true
         },
         {
-          "type": "yield_expression",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
-    "type": "literal",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": false,
-      "required": true,
-      "types": [
-        {
-          "type": "boolean",
-          "named": true
-        },
-        {
-          "type": "character",
-          "named": true
-        },
-        {
-          "type": "integer",
-          "named": true
-        },
-        {
-          "type": "null",
-          "named": true
-        },
-        {
-          "type": "real",
-          "named": true
-        },
-        {
-          "type": "regex",
-          "named": true
-        },
-        {
-          "type": "string",
-          "named": true
-        },
-        {
-          "type": "template_string",
-          "named": true
-        },
-        {
           "type": "verbatim_string",
+          "named": true
+        },
+        {
+          "type": "yield_expression",
           "named": true
         }
       ]
@@ -6780,7 +7843,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -6840,11 +7911,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -6876,6 +7947,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -6889,6 +7964,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -6908,7 +7991,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -6937,6 +8028,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -7011,6 +8106,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7035,11 +8138,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7067,6 +8170,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7083,6 +8190,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7092,6 +8207,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7112,6 +8235,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -7174,6 +8301,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7198,11 +8333,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7230,6 +8365,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7246,6 +8385,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7255,6 +8402,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7275,6 +8430,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -7337,6 +8496,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7361,11 +8528,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7393,6 +8560,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7409,6 +8580,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7418,6 +8597,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7438,6 +8625,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -7500,6 +8691,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7528,11 +8727,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7560,6 +8759,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7576,6 +8779,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7585,6 +8796,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7608,16 +8827,15 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
       ]
     }
-  },
-  {
-    "type": "member_declaration_modifier",
-    "named": true,
-    "fields": {}
   },
   {
     "type": "member_initializer",
@@ -7672,6 +8890,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7700,11 +8926,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7732,6 +8958,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7748,6 +8978,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7757,6 +8995,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7777,6 +9023,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -7843,6 +9093,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -7867,11 +9125,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -7899,6 +9157,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -7915,6 +9177,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -7924,6 +9194,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -7948,6 +9226,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -8018,6 +9300,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -8042,11 +9332,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -8066,15 +9356,19 @@
           "named": true
         },
         {
-          "type": "member_declaration_modifier",
-          "named": true
-        },
-        {
           "type": "method_call_expression",
           "named": true
         },
         {
+          "type": "modifier",
+          "named": true
+        },
+        {
           "type": "multiplicative_expression",
+          "named": true
+        },
+        {
+          "type": "null",
           "named": true
         },
         {
@@ -8098,6 +9392,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -8110,7 +9412,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "symbol",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -8142,11 +9452,20 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
       ]
     }
+  },
+  {
+    "type": "modifier",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "multiplicative_expression",
@@ -8201,6 +9520,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -8225,11 +9552,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -8257,6 +9584,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -8273,6 +9604,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -8282,6 +9621,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -8302,6 +9649,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -8446,6 +9797,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -8470,11 +9829,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -8502,6 +9861,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -8518,6 +9881,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -8527,6 +9898,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -8547,6 +9926,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -8655,6 +10038,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -8687,11 +10078,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -8719,6 +10110,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -8735,6 +10130,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -8744,6 +10147,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -8768,6 +10179,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -8830,6 +10245,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -8854,11 +10277,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -8886,6 +10309,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -8902,6 +10329,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -8911,6 +10346,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -8931,6 +10374,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -8993,6 +10440,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -9017,11 +10472,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -9049,6 +10504,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -9065,6 +10524,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -9074,6 +10541,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -9094,6 +10569,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -9139,7 +10618,7 @@
           "named": true
         },
         {
-          "type": "member_declaration_modifier",
+          "type": "modifier",
           "named": true
         },
         {
@@ -9214,6 +10693,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -9238,11 +10725,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -9270,6 +10757,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -9286,6 +10777,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -9295,6 +10794,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -9315,6 +10822,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -9377,6 +10888,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -9401,11 +10920,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -9433,6 +10952,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -9449,6 +10972,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -9458,6 +10989,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -9478,6 +11017,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -9540,6 +11083,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -9564,11 +11115,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -9596,6 +11147,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -9612,6 +11167,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -9621,6 +11184,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -9641,6 +11212,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -9667,11 +11242,11 @@
           "named": true
         },
         {
-          "type": "parameter",
+          "type": "modifier",
           "named": true
         },
         {
-          "type": "signal_declaration_modifier",
+          "type": "parameter",
           "named": true
         },
         {
@@ -9684,11 +11259,6 @@
         }
       ]
     }
-  },
-  {
-    "type": "signal_declaration_modifier",
-    "named": true,
-    "fields": {}
   },
   {
     "type": "sizeof_expression",
@@ -9758,6 +11328,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -9782,11 +11360,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -9814,6 +11392,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -9830,6 +11412,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -9839,6 +11429,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -9862,6 +11460,10 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
@@ -9871,6 +11473,7 @@
   {
     "type": "source_file",
     "named": true,
+    "root": true,
     "fields": {},
     "children": {
       "multiple": true,
@@ -10012,6 +11615,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -10036,11 +11647,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -10068,6 +11679,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -10084,6 +11699,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -10093,6 +11716,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -10117,6 +11748,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -10158,15 +11793,15 @@
           "named": true
         },
         {
+          "type": "modifier",
+          "named": true
+        },
+        {
           "type": "struct_member",
           "named": true
         },
         {
           "type": "type",
-          "named": true
-        },
-        {
-          "type": "type_declaration_modifier",
           "named": true
         },
         {
@@ -10268,7 +11903,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -10328,11 +11971,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -10368,6 +12011,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -10381,6 +12028,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -10400,7 +12055,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -10429,6 +12092,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -10503,6 +12170,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -10527,11 +12202,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -10559,6 +12234,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -10575,6 +12254,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -10587,7 +12274,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_section",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -10608,6 +12303,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -10704,6 +12403,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -10732,11 +12439,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -10764,6 +12471,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -10780,6 +12491,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -10789,6 +12508,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -10809,6 +12536,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -10871,6 +12602,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -10895,11 +12634,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -10927,6 +12666,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -10943,6 +12686,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -10952,6 +12703,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -10972,6 +12731,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -11034,6 +12797,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -11058,11 +12829,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -11090,6 +12861,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -11106,6 +12881,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -11115,6 +12898,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -11135,6 +12926,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -11210,11 +13005,6 @@
     }
   },
   {
-    "type": "type_declaration_modifier",
-    "named": true,
-    "fields": {}
-  },
-  {
     "type": "type_relational_expression",
     "named": true,
     "fields": {},
@@ -11267,6 +13057,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -11291,11 +13089,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -11323,6 +13121,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -11339,6 +13141,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -11348,6 +13158,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -11372,6 +13190,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -11431,6 +13253,11 @@
     }
   },
   {
+    "type": "verbatim_string",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "while_statement",
     "named": true,
     "fields": {},
@@ -11487,7 +13314,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -11547,11 +13382,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -11583,6 +13418,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -11596,6 +13435,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -11615,7 +13462,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -11644,6 +13499,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -11722,7 +13581,15 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
           "type": "break_statement",
+          "named": true
+        },
+        {
+          "type": "character",
           "named": true
         },
         {
@@ -11782,11 +13649,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -11818,6 +13685,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -11831,6 +13702,14 @@
         },
         {
           "type": "prefix_expression",
+          "named": true
+        },
+        {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
           "named": true
         },
         {
@@ -11850,7 +13729,15 @@
           "named": true
         },
         {
+          "type": "string",
+          "named": true
+        },
+        {
           "type": "switch_statement",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -11879,6 +13766,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -11953,6 +13844,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -11977,11 +13876,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -12009,6 +13908,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -12025,6 +13928,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -12034,6 +13945,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -12054,6 +13973,10 @@
         },
         {
           "type": "value_access",
+          "named": true
+        },
+        {
+          "type": "verbatim_string",
           "named": true
         },
         {
@@ -12116,6 +14039,14 @@
           "named": true
         },
         {
+          "type": "boolean",
+          "named": true
+        },
+        {
+          "type": "character",
+          "named": true
+        },
+        {
           "type": "dereferencing_expression",
           "named": true
         },
@@ -12140,11 +14071,11 @@
           "named": true
         },
         {
-          "type": "lambda_expression",
+          "type": "integer",
           "named": true
         },
         {
-          "type": "literal",
+          "type": "lambda_expression",
           "named": true
         },
         {
@@ -12172,6 +14103,10 @@
           "named": true
         },
         {
+          "type": "null",
+          "named": true
+        },
+        {
           "type": "null_coalescing_expression",
           "named": true
         },
@@ -12188,6 +14123,14 @@
           "named": true
         },
         {
+          "type": "real",
+          "named": true
+        },
+        {
+          "type": "regex",
+          "named": true
+        },
+        {
           "type": "relational_expression",
           "named": true
         },
@@ -12197,6 +14140,14 @@
         },
         {
           "type": "static_cast_expression",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        },
+        {
+          "type": "template_string",
           "named": true
         },
         {
@@ -12220,6 +14171,10 @@
           "named": true
         },
         {
+          "type": "verbatim_string",
+          "named": true
+        },
+        {
           "type": "yield_expression",
           "named": true
         }
@@ -12236,6 +14191,10 @@
   },
   {
     "type": "\"",
+    "named": false
+  },
+  {
+    "type": "\"\"\"",
     "named": false
   },
   {
@@ -12655,6 +14614,10 @@
     "named": false
   },
   {
+    "type": "sealed",
+    "named": false
+  },
+  {
     "type": "set",
     "named": false
   },
@@ -12721,10 +14684,6 @@
   {
     "type": "var",
     "named": false
-  },
-  {
-    "type": "verbatim_string",
-    "named": true
   },
   {
     "type": "virtual",
