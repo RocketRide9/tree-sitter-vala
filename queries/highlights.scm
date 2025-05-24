@@ -1,6 +1,7 @@
 ; highlights.scm
 
 (comment) @comment
+(hashbang_comment) @comment
 (type) @type
 (unqualified_type) @type
 (attribute) @attribute

@@ -11525,6 +11525,10 @@
           "named": true
         },
         {
+          "type": "hashbang_comment",
+          "named": true
+        },
+        {
           "type": "if_statement",
           "named": true
         },
@@ -14428,7 +14432,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "const",
@@ -14517,6 +14522,10 @@
   {
     "type": "global::",
     "named": false
+  },
+  {
+    "type": "hashbang_comment",
+    "named": true
   },
   {
     "type": "identifier",

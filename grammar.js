@@ -4,7 +4,7 @@ module.exports = grammar({
   word: $ => $.identifier,
 
   rules: {
-    source_file: $ => seq(repeat($.using_directive), repeat(choice($.namespace_member, $._statement))),
+    source_file: $ => seq(optional($.hashbang_comment), repeat($.using_directive), repeat(choice($.namespace_member, $._statement))),
 
     // taken from tree-sitter-c
     // http://stackoverflow.com/questions/13014947/regex-to-match-a-c-style-multiline-comment/36328890#36328890
@@ -16,6 +16,8 @@ module.exports = grammar({
         '/'
       )
     ))),
+    
+    hashbang_comment: _ => token(prec(1, /#!.*/)),
 
     using_directive: $ => seq(
       'using',
