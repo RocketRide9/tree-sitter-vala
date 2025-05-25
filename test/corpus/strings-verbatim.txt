@@ -1,0 +1,40 @@
+================
+Verbatim Strings
+================
+
+void fn()
+{
+    string verbatim = """This is a so-called "verbatim string".
+        Verbatim strings don't process escape sequences, such as \n, \t, \\, etc.
+        They may contain quotes and may span"" multiple lines.""";
+    var v = """ ass sssdas
+                asd """;
+    var b = """ asasdasd """;
+}
+
+---
+
+(source_file
+  (namespace_member
+    (method_declaration
+      (type)
+      (symbol
+        (identifier))
+      (block
+        (local_declaration
+          (type
+            (symbol
+              (identifier)))
+          (assignment
+            (identifier)
+            (verbatim_string)))
+        (local_declaration
+          (type)
+          (assignment
+            (identifier)
+            (verbatim_string)))
+        (local_declaration
+          (type)
+          (assignment
+            (identifier)
+            (verbatim_string)))))))

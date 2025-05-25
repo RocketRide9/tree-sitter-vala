@@ -19,33 +19,41 @@ void main() {
   (namespace_member
     (method_declaration
       (type)
-      (symbol (identifier))
+      (symbol
+        (identifier))
       (block
         (expression_statement
           (arithmetic_expression
-            (literal (integer))
-            (member_access_expression (member_access_expression (identifier)) (identifier))))
+            (integer)
+            (member_access_expression
+              (member_access_expression
+                (identifier))
+              (identifier))))
         (expression_statement
-          (in_expression 
-            (member_access_expression (identifier))
-            (method_call_expression (member_access_expression (identifier)))))
+          (in_expression
+            (member_access_expression
+              (identifier))
+            (method_call_expression
+              (member_access_expression
+                (identifier)))))
         (expression_statement
           (assignment_expression
-            (literal (integer))
-            (literal (integer))))
+            (integer)
+            (integer)))
         (expression_statement
           (method_call_expression
             (member_access_expression
               (member_access_expression
-                (member_access_expression (identifier))
+                (member_access_expression
+                  (identifier))
                 (identifier))
               (identifier))))
         (expression_statement
           (method_call_expression
             (member_access_expression
               (arithmetic_expression
-                (literal (integer))
-                (literal (integer)))
+                (integer)
+                (integer))
               (identifier))))
         (if_statement
           (logical_negation_expression
@@ -54,20 +62,15 @@ void main() {
                 (member_access_expression
                   (identifier)))))
           (block))
-            (expression_statement
+        (expression_statement
+          (arithmetic_expression
+            (arithmetic_expression
               (arithmetic_expression
                 (arithmetic_expression
-                  (arithmetic_expression
-                    (arithmetic_expression
-                      (literal
-                        (integer))
-                      (literal
-                        (real)))
-                    (literal
-                      (integer)))
-                  (member_access_expression
-                    (literal
-                      (integer))
-                    (identifier)))
-                (literal
-                  (real))))))))
+                  (integer)
+                  (real))
+                (integer))
+              (member_access_expression
+                (integer)
+                (identifier)))
+            (real)))))))

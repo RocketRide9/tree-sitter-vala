@@ -4,7 +4,13 @@ module.exports = grammar({
   word: $ => $.identifier,
 
   rules: {
-    source_file: $ => seq(optional($.hashbang_comment), repeat($.using_directive), repeat(choice($.namespace_member, $._statement))),
+    source_file: $ => seq(
+      optional($.hashbang_comment),
+      repeat($.using_directive),
+      repeat(
+        choice($.namespace_member, $._statement)
+      )
+    ),
 
     // taken from tree-sitter-c
     // http://stackoverflow.com/questions/13014947/regex-to-match-a-c-style-multiline-comment/36328890#36328890
@@ -26,9 +32,14 @@ module.exports = grammar({
       ';'
     ),
 
-    symbol: $ => choice(
-      seq($.symbol, '.', $.identifier),
-      seq(optional('global::'), $.identifier)
+    // symbol: $ => choice(
+    //   seq($.symbol, '.', $.identifier),
+    //   seq(optional('global::'), $.identifier)
+    // ),
+    
+    symbol: $ => seq(
+      optional('global::'),
+      sep1($.identifier, '.')
     ),
 
     identifier: $ => /[@A-Za-z_]\w*/,
@@ -52,20 +63,23 @@ module.exports = grammar({
 
     _attribute_list: $ => seq(
       '[',
-      $.attribute,
-      repeat(seq(',', $.attribute)),
+      commaSep1($.attribute),
       ']'
     ),
 
     attribute: $ => seq(
       $.identifier,
-      optional(seq('(', $.attribute_argument, repeat(seq(',', $.attribute_argument)), ')'))
+      optional(seq(
+        '(',
+        commaSep1($.attribute_argument),
+        ')'
+      ))
     ),
 
     attribute_argument: $ => seq(
-      $.identifier,
+      field('left', $.identifier),
       '=',
-      $._expression
+      field('right', $._expression)
     ),
 
     _expression: $ => choice(
@@ -160,7 +174,7 @@ module.exports = grammar({
         $._contained_expression
       ),
       '(',
-      optional(seq($.argument, repeat(seq(',', $.argument)))),
+      commaSep($.argument),
       ')'
     ),
 
@@ -169,7 +183,7 @@ module.exports = grammar({
     lambda_expression: $ => seq(
       choice(
         $.identifier,
-        seq('(', optional(seq($.identifier, repeat(seq(',', $.identifier)))), ')')
+        seq('(', commaSep($.identifier), ')')
       ),
       '=>',
       choice($._expression, $.block)
@@ -227,29 +241,36 @@ module.exports = grammar({
 
     object_creation_expression: $ => seq(
       'new',
-      $.type,
-      optional(seq('.', $.identifier)),
+      $.unqualified_type,
+      // $.type,
+      // optional(seq('.', $.identifier)),
       '(',
-      optional(seq($.argument, repeat(seq(',', $.argument)))),
+      commaSep($.argument),
       ')',
       optional($.object_initializers)
     ),
 
     object_initializers: $ => seq(
       '{',
-      optional(seq($.member_initializer, repeat(seq(',', $.member_initializer)), optional(',') /* support trailing comma */)),
+      optional(seq(
+        commaSep1($.member_initializer),
+        optional(',') /* support trailing comma */
+      )),
       '}'
     ),
 
     member_initializer: $ => seq(
-      $.identifier,
+      field('member', $.identifier),
       '=',
-      $._expression
+      field('value', $._expression)
     ),
 
     initializer: $ => seq(
       '{',
-      optional(seq($.argument, repeat(seq(',', $.argument)), optional(',') /* support trailing comma */)),
+      optional(seq(
+        commaSep1($.argument),
+        optional(',') /* support trailing comma */
+      )),
       '}'
     ),
 
@@ -323,15 +344,20 @@ module.exports = grammar({
       )
     ),
 
+    /**
+     * eg. `Gee.List<int>`
+    */ 
     unqualified_type: $ => seq(
       $.symbol,
       optional($.type_arguments)
     ),
 
+    /**
+    * eg. `<Foo, Object>`
+    */
     type_arguments: $ => seq(
       '<',
-      $.type,
-      repeat(seq(',', $.type)),
+      commaSep1($.type),
       '>'
     ),
 
@@ -382,7 +408,10 @@ module.exports = grammar({
       repeat($.modifier),
       'class',
       $.unqualified_type,
-      optional(seq(':', $.type, repeat(seq(',', $.type)))),
+      field(
+        "inheritance_list",
+        optional(seq(':', commaSep1($.type))),
+      ),
       '{',
       repeat($.class_member),
       '}'
@@ -462,8 +491,7 @@ module.exports = grammar({
       'enum',
       $.symbol,
       '{',
-      $.enum_value,
-      repeat(seq(',', $.enum_value)),
+      commaSep1($.enum_value),
       optional(choice(
         ',',    // support trailing ','
         seq(';', repeat(seq(
@@ -486,8 +514,7 @@ module.exports = grammar({
       'errordomain',
       $.symbol,
       '{',
-      $.errorcode,
-      repeat(seq(',', $.errorcode)),
+      commaSep1($.errorcode),
       optional(choice(
         ',',    // support trailing ','
         seq(';', repeat(seq(repeat($._attribute_list), $.method_declaration)))
@@ -521,7 +548,7 @@ module.exports = grammar({
       repeat($.modifier),
       $.symbol,
       '(',
-      optional(seq($.parameter, repeat(seq(',', $.parameter)))),
+      commaSep($.parameter),
       ')',
       optional(seq('throws', $.type)),
       optional(seq(choice('requires', 'ensures'), '(', $._expression, ')')),
@@ -549,7 +576,7 @@ module.exports = grammar({
       $.symbol,
       optional($.type_arguments),
       '(',
-      optional(seq($.parameter, repeat(seq(',', $.parameter)))),
+      commaSep($.parameter),
       ')',
       optional(seq('throws', $.type)),
       optional(seq(choice('requires', 'ensures'), '(', $._expression, ')')),
@@ -653,7 +680,7 @@ module.exports = grammar({
     ),
 
     assignment: $ => prec.dynamic(20, seq(
-      $.identifier,
+      field('left', $.identifier),
       optional($.inline_array_type),
       optional(seq('=', $._expression))
     )),
@@ -860,7 +887,6 @@ module.exports = grammar({
     [$.symbol, $.member_access_expression, $.lambda_expression],        // head of lambda expression may be head of symbol or MA
     [$.type],                                                           // disambiguate between 'X as <type *> ...'  and '(X as <type>)* ...'
     [$.array_type],                                                     // when 'X[]? ...' could also be '(X[]) ? ...'
-    [$.symbol, $.type],                                                 // for object creation expression
     [$._contained_expression, $.method_call_expression],                // for ambiguity because of contained expressions
     [$.element_access_expression],                                      // for ambiguity because of contained expressions
     [$.initializer, $.block],                                           // because {} is ambiguous in statement-expression contexts
@@ -874,3 +900,63 @@ module.exports = grammar({
     $._preprocessor_statement
   ],
 });
+
+
+/**
+ * Creates a rule to match one or more of the rules separated by a comma
+ *
+ * @param {Rule} rule
+ *
+ * @returns {SeqRule}
+ */
+function commaSep1(rule) {
+  return seq(rule, repeat(seq(',', rule)));
+}
+
+/**
+ * Creates a rule to match two or more of the rules separated by a comma
+ *
+ * @param {Rule} rule
+ *
+ * @returns {SeqRule}
+ */
+function commaSep2(rule) {
+  return seq(rule, repeat1(seq(',', rule)));
+}
+
+/**
+ * Creates a rule to optionally match one or more of the rules separated by a comma
+ *
+ * @param {Rule} rule
+ *
+ * @returns {ChoiceRule}
+ */
+function commaSep(rule) {
+  return optional(commaSep1(rule));
+}
+
+/**
+ * Creates a rule to match one or more of the rules separated by `separator`
+ *
+ * @param {RuleOrLiteral} rule
+ *
+ * @param {RuleOrLiteral} separator
+ *
+ * @returns {SeqRule}
+ */
+function sep1(rule, separator) {
+  return seq(rule, repeat(seq(separator, rule)));
+}
+
+/**
+ * Creates a rule to optionally match one or more of the rules separated by `separator`
+ *
+ * @param {RuleOrLiteral} rule
+ *
+ * @param {RuleOrLiteral} separator
+ *
+ * @returns {ChoiceRule}
+ */
+function sep(rule, separator) {
+  return optional(sep1(rule, separator));
+}

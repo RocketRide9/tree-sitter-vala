@@ -2,14 +2,16 @@
 
 (comment) @comment
 (hashbang_comment) @comment
+(symbol "global::" @keyword)
 (type) @type
 (unqualified_type) @type
 (attribute) @attribute
-(method_declaration (symbol (symbol) @type (identifier) @function.method))
+(identifier) @variable ;?
+
+(delegate_declaration (symbol (identifier) @type))
 (method_declaration (symbol (identifier) @function.method))
 (local_function_declaration (identifier) @function)
 (destructor_declaration (identifier) @function)
-(creation_method_declaration (symbol (symbol) @type (identifier) @constructor))
 (creation_method_declaration (symbol (identifier) @constructor))
 (enum_declaration (symbol) @type)
 (enum_value (identifier) @constant)

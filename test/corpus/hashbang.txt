@@ -1,0 +1,26 @@
+================
+Hashbang
+================
+
+#!/usr/bin/env -S vala --vapidir . --pkg Qt6
+
+void main () {
+    print ("Hi!");
+}
+
+---
+
+(source_file
+  (hashbang_comment)
+  (namespace_member
+    (method_declaration
+      (type)
+      (symbol
+        (identifier))
+      (block
+        (expression_statement
+          (method_call_expression
+            (member_access_expression
+              (identifier))
+            (argument
+              (string))))))))

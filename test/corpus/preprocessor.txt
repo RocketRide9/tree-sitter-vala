@@ -11,35 +11,33 @@ int x = 2;
 #endif
 
 ---
+
 (source_file
- (if_directive
-  (identifier)
-  (identifier))
- (namespace_member
-  (field_declaration
-   (type
-    (symbol
-     (identifier)))
-   (identifier)
-   (literal
-    (integer))))
- (elif_directive
-  (identifier))
- (namespace_member
-  (field_declaration
-   (type
-    (symbol
-     (identifier)))
-   (identifier)
-   (literal
-    (integer))))
- (else_directive)
- (namespace_member
-  (field_declaration
-   (type
-    (symbol
-     (identifier)))
-   (identifier)
-   (literal
-    (integer))))
-(endif_directive))
+  (if_directive
+    (identifier)
+    (identifier))
+  (namespace_member
+    (field_declaration
+      (type
+        (symbol
+          (identifier)))
+      (identifier)
+      (integer)))
+  (elif_directive
+    (identifier))
+  (namespace_member
+    (field_declaration
+      (type
+        (symbol
+          (identifier)))
+      (identifier)
+      (integer)))
+  (else_directive)
+  (namespace_member
+    (field_declaration
+      (type
+        (symbol
+          (identifier)))
+      (identifier)
+      (integer)))
+  (endif_directive))

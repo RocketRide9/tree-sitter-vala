@@ -8,7 +8,8 @@ namespace Foo {
 namespace Foo.Bar {
 }
 
-namespace global::Foo.Bar {
+namespace global::Foo.Bar.Some {
+    class SomeClass {}
 }
 
 namespace Foo {
@@ -16,13 +17,47 @@ namespace Foo {
     }
 }
 
+var a = new global::Foo.Bar.Some.SomeClass();
+
 ---
 
 (source_file
-  (namespace_member (namespace_declaration (symbol (identifier))))
-  (namespace_member (namespace_declaration (symbol (symbol (identifier)) (identifier))))
-  (namespace_member (namespace_declaration (symbol (symbol (identifier)) (identifier))))
   (namespace_member
-    (namespace_declaration (symbol (identifier))
+    (namespace_declaration
+      (symbol
+        (identifier))))
+  (namespace_member
+    (namespace_declaration
+      (symbol
+        (identifier)
+        (identifier))))
+  (namespace_member
+    (namespace_declaration
+      (symbol
+        (identifier)
+        (identifier)
+        (identifier))
       (namespace_member
-        (namespace_declaration (symbol (identifier)))))))
+        (class_declaration
+          (unqualified_type
+            (symbol
+              (identifier)))))))
+  (namespace_member
+    (namespace_declaration
+      (symbol
+        (identifier))
+      (namespace_member
+        (namespace_declaration
+          (symbol
+            (identifier))))))
+  (namespace_member
+    (field_declaration
+      (type)
+      (identifier)
+      (object_creation_expression
+        (unqualified_type
+          (symbol
+            (identifier)
+            (identifier)
+            (identifier)
+            (identifier)))))))

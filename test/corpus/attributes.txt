@@ -8,16 +8,21 @@ namespace Attributes {
 }
 
 ---
+
 (source_file
   (namespace_member
-    (attribute (identifier))
-    (attribute (identifier)
+    (attribute
+      (identifier))
+    (attribute
+      (identifier)
       (attribute_argument
         (identifier)
-        (literal (string)))
+        (string))
       (attribute_argument
         (identifier)
-        (literal (boolean))))
-    (attribute (identifier))
+        (boolean)))
+    (attribute
+      (identifier))
     (namespace_declaration
-      (symbol (identifier)))))
+      (symbol
+        (identifier)))))

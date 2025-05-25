@@ -1,0 +1,40 @@
+================
+Class
+================
+
+public sealed class Program : Object
+{
+    public Program() {
+    
+    }
+    void some_method()
+    {
+        
+    }
+}
+
+---
+
+(source_file
+  (namespace_member
+    (class_declaration
+      (access_modifier)
+      (modifier)
+      (unqualified_type
+        (symbol
+          (identifier)))
+      (type
+        (symbol
+          (identifier)))
+      (class_member
+        (creation_method_declaration
+          (access_modifier)
+          (symbol
+            (identifier))
+          (block)))
+      (class_member
+        (method_declaration
+          (type)
+          (symbol
+            (identifier))
+          (block))))))

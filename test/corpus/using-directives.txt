@@ -10,12 +10,19 @@ using A, B;
 ---
 
 (source_file
- (using_directive
-  (symbol (identifier)))
- (using_directive
-  (symbol (symbol (identifier)) (identifier)))
- (using_directive
-  (symbol (symbol (identifier)) (identifier)))
- (using_directive
-  (symbol (identifier))
-  (symbol (identifier))))
+  (using_directive
+    (symbol
+      (identifier)))
+  (using_directive
+    (symbol
+      (identifier)
+      (identifier)))
+  (using_directive
+    (symbol
+      (identifier)
+      (identifier)))
+  (using_directive
+    (symbol
+      (identifier))
+    (symbol
+      (identifier))))
