@@ -85,15 +85,29 @@
         }
       }
     },
+    "hashbang_marker": {
+      "type": "STRING",
+      "value": "#!"
+    },
+    "hashbang_comment_content": {
+      "type": "PATTERN",
+      "value": ".*"
+    },
     "hashbang_comment": {
-      "type": "TOKEN",
+      "type": "PREC",
+      "value": 1,
       "content": {
-        "type": "PREC",
-        "value": 1,
-        "content": {
-          "type": "PATTERN",
-          "value": "#!.*"
-        }
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "hashbang_marker"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "hashbang_comment_content"
+          }
+        ]
       }
     },
     "using_directive": {
@@ -5518,10 +5532,6 @@
     ],
     [
       "array_type"
-    ],
-    [
-      "symbol",
-      "type"
     ],
     [
       "_contained_expression",

@@ -23,7 +23,14 @@ module.exports = grammar({
       )
     ))),
     
-    hashbang_comment: _ => token(prec(1, /#!.*/)),
+    hashbang_marker: _ => '#!',
+    hashbang_comment_content: _ => /.*/,
+    hashbang_comment: $ => prec(1,
+      seq(
+        $.hashbang_marker,
+        $.hashbang_comment_content
+      )
+    ),
 
     using_directive: $ => seq(
       'using',

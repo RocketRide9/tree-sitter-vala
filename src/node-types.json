@@ -6724,6 +6724,25 @@
     }
   },
   {
+    "type": "hashbang_comment",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "hashbang_comment_content",
+          "named": true
+        },
+        {
+          "type": "hashbang_marker",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "if_directive",
     "named": true,
     "fields": {
@@ -14568,7 +14587,11 @@
     "named": false
   },
   {
-    "type": "hashbang_comment",
+    "type": "hashbang_comment_content",
+    "named": true
+  },
+  {
+    "type": "hashbang_marker",
     "named": true
   },
   {
